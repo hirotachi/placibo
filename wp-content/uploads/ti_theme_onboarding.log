@@ -1,0 +1,15 @@
+[09/May/2022:23:27:19] (I): WordPress Instance Info:
+[09/May/2022:23:27:19] (I): Home URL : http://localhost/ecommerce
+[09/May/2022:23:27:19] (I): Site URL : http://localhost/ecommerce
+[09/May/2022:23:27:19] (I): WordPress Version : 5.9.3
+[09/May/2022:23:27:19] (I): Onboarding Version : 1.1.21
+[09/May/2022:23:27:19] (I): Multisite : No
+[09/May/2022:23:27:19] (I): Server Info : Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1
+[09/May/2022:23:27:19] (I): PHP Version : 8.1.1
+[09/May/2022:23:27:19] (I): HTTPS : No
+[09/May/2022:23:27:19] (I): PHP Max Execution Time : 120
+[09/May/2022:23:27:19] (I): PHP Max Input Vars : 1000
+[09/May/2022:23:27:19] (I): Max Upload Size : 41943040
+[09/May/2022:23:27:19] (I): Plugins:
+[09/May/2022:23:27:19] (I): [PLUGIN] Templates Patterns Collection : v1.1.21 (ThemeIsle)
+[09/May/2022:23:27:19] (I): [PLUGIN] WooCommerce : v6.4.1 (Automattic)

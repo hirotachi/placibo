@@ -1,0 +1,79 @@
+/* Select image */
+.cmb-row.cmb-type-image-select .cmb2-image-select-list{margin: 0 !important; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select input[type="radio"] { display: none; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select{ display: inline-block; margin: 0 10px 3px; min-width: 80px; padding: 2px 15px 2px 0; text-align: center; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select:first-child{margin-left:0} 
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select img { border: 4px solid #F1F1F1; }
+.cmb-row.cmb-type-image-select .cmb2-image-select-list .cmb2-image-select.cmb2-image-select-selected img { border-color: #005077; }
+
+/* Variant gallery */
+.rt-gallery-wrapper .rt-images li.image {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 15px 10px 0;
+  position: relative;
+}
+.rt-gallery-wrapper .rt-images li.image img {
+    background: #eee;
+    border: 5px solid #ffffff;
+    outline: 1px solid #e9e9e9;
+    box-shadow: inset 0 0 15px rgb(0 0 0 / 30%), inset 0 0 0 1px rgb(0 0 0 / 5%);
+    background-image: linear-gradient(45deg, #d0d0d0 25%, transparent 25%, transparent 75%, #d0d0d0 75%, #d0d0d0), 
+      linear-gradient(45deg, #d0d0d0 25%, transparent 25%, transparent 75%, #d0d0d0 75%, #d0d0d0);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.rt-gallery-wrapper .rt-images li.image img:hover {
+  cursor: all-scroll;
+}
+.rt-gallery-wrapper .rt-images li.image a.rt-remove-image {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  text-decoration: none;
+  color: #999;
+}
+.rt-gallery-wrapper .rt-images li.image a.rt-remove-image:hover {
+  color : #de5151;
+}
+.rt-gallery-wrapper .rt-images li.wc-metabox-sortable-placeholder{
+    position:relative;
+    border:3px dashed #ddd;
+    margin:0;
+    background:#f7f7f7;
+    display: inline-block;
+    width: 75px;
+    vertical-align: middle;
+}
+.rt-gallery-wrapper .rt-images li.wc-metabox-sortable-placeholder:after{
+    font-family:Dashicons,serif;
+    speak:none;
+    font-weight:400;
+    font-variant:normal;
+    text-transform:none;
+    -webkit-font-smoothing:antialiased;
+    margin:0;
+    text-indent:0;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    text-align:center;
+    content:"\F161";
+    font-size:2.618em;
+    line-height:80px;
+    color:#ddd
+}
+
+.cmb-type-title {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+.cmb-type-title h5.cmb2-metabox-title {
+  display: inline-block;
+  font-weight: 700;
+  border-bottom: 1px solid #ccc;
+}

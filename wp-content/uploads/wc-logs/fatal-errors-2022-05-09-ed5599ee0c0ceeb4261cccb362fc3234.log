@@ -1,0 +1,94 @@
+2022-05-09T23:47:39+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Amino Core')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(3624): Bulk_Upgrader_Skin->after('Amino Core')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(3269): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(3357): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(2988): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(750): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-09T23:49:16+00:00 CRITICAL Uncaught Error: Call to undefined function _is_elementor_installed() in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php:95
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): Amino_Core->elementor_not_installed_activated('')
+#1 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ecommerce\wp-admin\admin-header.php(303): do_action('admin_notices')
+#4 C:\xampp\htdocs\ecommerce\wp-admin\plugins.php(605): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php on line 95
+
+2022-05-09T23:49:35+00:00 CRITICAL Uncaught Error: Call to undefined function _is_elementor_installed() in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php:95
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): Amino_Core->elementor_not_installed_activated('')
+#1 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ecommerce\wp-admin\admin-header.php(303): do_action('admin_notices')
+#4 C:\xampp\htdocs\ecommerce\wp-admin\plugin-install.php(136): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php on line 95
+
+2022-05-09T23:50:25+00:00 CRITICAL Uncaught Error: Call to undefined function _is_elementor_installed() in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php:95
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): Amino_Core->elementor_not_installed_activated('')
+#1 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ecommerce\wp-admin\admin-header.php(303): do_action('admin_notices')
+#4 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(245): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php on line 95
+
+2022-05-09T23:50:31+00:00 CRITICAL Uncaught Error: Call to undefined function _is_elementor_installed() in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php:95
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): Amino_Core->elementor_not_installed_activated('')
+#1 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ecommerce\wp-admin\admin-header.php(303): do_action('admin_notices')
+#4 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(245): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php on line 95
+
+2022-05-09T23:50:39+00:00 CRITICAL Uncaught Error: Call to undefined function _is_elementor_installed() in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php:95
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): Amino_Core->elementor_not_installed_activated('')
+#1 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ecommerce\wp-admin\admin-header.php(303): do_action('admin_notices')
+#4 C:\xampp\htdocs\ecommerce\wp-admin\options-general.php(53): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php on line 95
+
+2022-05-09T23:50:53+00:00 CRITICAL Uncaught Error: Call to undefined function _is_elementor_installed() in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php:95
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): Amino_Core->elementor_not_installed_activated('')
+#1 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\ecommerce\wp-admin\admin-header.php(303): do_action('admin_notices')
+#4 C:\xampp\htdocs\ecommerce\wp-admin\index.php(137): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\amino-core.php on line 95
+
+2022-05-09T23:59:20+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Kirki Customize...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(3624): Bulk_Upgrader_Skin->after('Kirki Customize...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(3269): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(3357): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(2988): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\amino\inc\admin\themepanel\includes\class-tgm-plugin-activation.php(750): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
