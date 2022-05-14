@@ -1,0 +1,155 @@
+2022-05-13T23:54:59+00:00 CRITICAL Uncaught Error: Call to undefined function amino_social_list() in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\includes\widgets\widget-social.php:22
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-widget.php(393): Amino_Widget_Social->widget(Array, Array)
+#1 C:\xampp\htdocs\ecommerce\wp-includes\widgets.php(835): WP_Widget->display_callback(Array, Array)
+#2 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\template-parts\footer\footer-widgets.php(17): dynamic_sidebar('footer')
+#3 C:\xampp\htdocs\ecommerce\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ecommerce\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#5 C:\xampp\htdocs\ecommerce\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\footer.php(11): get_template_part('template-parts/...', 'widgets')
+#7 C:\xampp\htdocs\ecommerce\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#10 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\index.php(34): get_footer()
+#11 C:\xampp\htdocs\ecommerce\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\ecommerce\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\ecommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#14 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-content\plugins\amino-core\includes\widgets\widget-social.php on line 22
+
+2022-05-13T23:56:29+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Contact Form 7')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Contact Form 7')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-13T23:56:44+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Envato Market (...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Envato Market (...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-13T23:56:59+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Instagram Galle...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Instagram Galle...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-13T23:57:12+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Savoy Theme - C...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Savoy Theme - C...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-13T23:57:29+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Savoy Theme - P...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Savoy Theme - P...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-13T23:58:03+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Savoy Theme - T...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Savoy Theme - T...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-13T23:58:19+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'Savoy Theme - W...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('Savoy Theme - W...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
+2022-05-13T23:58:43+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php(156): sprintf('%1$s installed ...', 'WPBakery Page B...')
+#1 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3638): Bulk_Upgrader_Skin->after('WPBakery Page B...')
+#2 C:\xampp\htdocs\ecommerce\wp-admin\includes\class-wp-upgrader.php(824): TGMPA_Bulk_Installer_Skin->after()
+#3 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3258): WP_Upgrader->run(Array)
+#4 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(3371): TGMPA_Bulk_Installer->run(Array)
+#5 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(2977): TGMPA_Bulk_Installer->bulk_install(Array)
+#6 C:\xampp\htdocs\ecommerce\wp-content\themes\savoy\includes\tgmpa\class-tgm-plugin-activation.php(743): TGMPA_List_Table->process_bulk_actions()
+#7 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(307): TGM_Plugin_Activation->install_plugins_page('')
+#8 C:\xampp\htdocs\ecommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\ecommerce\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\ecommerce\wp-admin\admin.php(259): do_action('appearance_page...')
+#11 C:\xampp\htdocs\ecommerce\wp-admin\themes.php(10): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown in C:\xampp\htdocs\ecommerce\wp-admin\includes\class-bulk-upgrader-skin.php on line 156
+
